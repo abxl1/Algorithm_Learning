@@ -1,9 +1,11 @@
 class Solution {
     public int solution(int n) {
-        for (int x = 1; ; x++) {
+        int x = 1;
+        while (true) {
             if (n % x == 1) {
                 return x;
             }
+            x++;
         }
     }
 }
