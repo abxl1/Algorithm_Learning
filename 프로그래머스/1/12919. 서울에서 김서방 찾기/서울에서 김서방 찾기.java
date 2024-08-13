@@ -3,9 +3,9 @@ class Solution {
         String answer = "";
         // seoul 배열을 돌면서
         for (int i = 0; i < seoul.length ; i++) {
-            // "Kim" 스트링이 있는지,
+            // "Kim" 스트링과 일치 검사
             if (seoul[i].equals("Kim")) {
-                // 있다면 위치한 인덱스 i 출력
+                // 일치한다면 위치한 인덱스 i 출력
                 answer = "김서방은 "+i+"에 있다";
             }
         }        
