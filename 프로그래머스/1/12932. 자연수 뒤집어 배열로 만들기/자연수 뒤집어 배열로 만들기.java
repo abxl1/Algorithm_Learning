@@ -6,6 +6,7 @@ class Solution {
         for (int i = 0; i < rvsnum.length(); i++) {
             rvsArr[i] = Character.getNumericValue(rvsnum.charAt(i));
         }
-        return rvsArr;
+        int[] result = rvsArr;
+        return result;
     }
 }
