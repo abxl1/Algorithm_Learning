@@ -1,5 +1,6 @@
 class Solution {
     public String solution(int num) {   
-        return num % 2 == 0 ? "Even" : "Odd";
+        int result = num % 2;
+        return result == 0 ? "Even" : "Odd";
     }
 }
